@@ -1,0 +1,73 @@
+#menu{
+
+	height : 50px;
+	background-color:white;
+}
+
+ul,
+li{
+	margin:0;
+	padding:0;
+	list-style:none;
+
+}
+
+#menu ul{
+
+	width: 960px;
+	height: 50px;
+	margin-left:20px;
+	overflow:hidden;
+
+}
+
+#menu li{
+	margin: 15px 15px 15px 32px;
+	width: 145px;
+	height: 50px;
+	vertical-align: middle;
+	line-height:50px;
+	font-size:20px;
+	font-family: 'Poiret One', cursive;
+	display:block;
+	float:left;
+}
+
+
+#menu a,
+#menu a:link,
+#menu a:visited,
+#menu a:active,
+#menu a:hover{
+	width:145px;
+	height:40px;
+	line-height:20px;
+	color:black;
+	display:block;
+	font-size:20px;
+	font-family: 'Poiret One', cursive;
+	text-decoration:none;
+}
+
+#menu a:hover, #menu a.ici{
+	width:145px;
+	height:40px;
+	line-height:20px;
+	color:#98DDDE;
+	display:block;
+	font-size:20px;
+	font-family: 'Poiret One', cursive;
+	background: transparent ;
+}
+
+#menu a.effet1:hover, #menu a.la{
+	width:145px;
+	height:40px;
+	line-height:20px;
+	color:#98DDDE;
+	display:block;
+	font-size:20px;
+	font-family: 'Poiret One', cursive;
+	background: transparent ;
+}
+
